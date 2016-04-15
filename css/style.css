@@ -1,4 +1,25 @@
+html, body {
+  height:100%;
+} 
 
+.container {
+    height: 100%;
+}
+
+#perfomer {
+    height: 100%;
+    border-right: 1px solid black;
+    background-image: url(../images/performer.jpg);
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+}
+
+#lurker{
+    height: 100%;
+    background-image: url(../images/audience.jpg);
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+}
 
 @media screen and (max-width:740px){
 	
