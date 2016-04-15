@@ -3,92 +3,86 @@ html, body {
 } 
 
 .container {
-    height: 100%;
+  height: 100%;
 }
 
 .center-block {
-    float: none;
+  float: none;
+}
+
+.searchBox {
+  max-width: 75%;
 }
 
 .headers {
-    text-align: center;
+  text-align: center;
 }
 
 #performer {
-    height: 100%;
-    border-right: 1px solid black;
-    padding:0;
-    text-align: center;
-    vertical-align: middle;
-    line-height: 90px;
+  height: 100%;
+  border-right: 1px solid black;
+  padding:0;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 90px;
 }
 
 #lurker{
-    height: 100%;
-    padding:0;
-    text-align: center;
-    vertical-align: middle;
-    line-height: 90px;
+  height: 100%;
+  padding:0;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 90px;
 }
 
 .overlay{
-    background-color:black;
-    opacity:0.6;
-    position:relative;
-    height:100%;
-    text-align: center;
-    vertical-align: middle;
-    line-height: 90px;
+  background-color:black;
+  opacity:0.6;
+  position:relative;
+  height:100%;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 90px;
 }
 
 .form-signin {
-      max-width: 330px;
-        padding: 15px;
-          margin: 0 auto;
-
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
 }
-.form-signin .form-signin-heading,
-.form-signin .checkbox {
-      margin-bottom: 10px;
 
-}
-.form-signin .checkbox {
-      font-weight: normal;
-
-}
 .form-signin .form-control {
-      position: relative;
-        height: auto;
-          -webkit-box-sizing: border-box;
-               -moz-box-sizing: border-box;
-                         box-sizing: border-box;
-                           padding: 10px;
-                             font-size: 16px;
-
+  position: relative;
+  height: auto;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 10px;
+  font-size: 16px;
+  margin: 0;
 }
+
 .form-signin .form-control:focus {
-      z-index: 2;
-
+  z-index: 2;
 }
+
 .form-signin input[type="email"] {
-      margin-bottom: -1px;
-        border-bottom-right-radius: 0;
-          border-bottom-left-radius: 0;
-
+  margin-bottom: -1px;
+  -bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
 }
-.form-signin input[type="password"] {
-      margin-bottom: 10px;
-        border-top-left-radius: 0;
-          border-top-right-radius: 0;
 
+.form-signin input[type="password"] {
+  -top-left-radius: 0;
+  border-top-right-radius: 0;
 }
 
 @media screen and (max-width:740px){
-	
+    
 }
 
 @media screen and (max-width:650px) {
-	
+    
 }
 
 @media screen and (max-width: 500px) {
