@@ -12,6 +12,10 @@ html, body {
     background-image: url(../images/performer.jpg);
     background-size: auto 100%;
     background-repeat: no-repeat;
+    padding:0;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 90px;
 }
 
 #lurker{
@@ -19,6 +23,20 @@ html, body {
     background-image: url(../images/audience.jpg);
     background-size: auto 100%;
     background-repeat: no-repeat;
+    padding:0;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 90px;
+}
+
+.overlay{
+    background-color:black;
+    opacity:0.6;
+    position:relative;
+    height:100%;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 90px;
 }
 
 @media screen and (max-width:740px){

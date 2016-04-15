@@ -9,15 +9,22 @@
   <title></title>
 </head>
 <body>
-<div class="container">
-    <div class="row" style="height:100%;">
-        <div class="col-md-6" id="perfomer">
-            
-        </div>
-        <div class="col-md-6" id="lurker">
-    </div> 
+  <div class="container">
+    <div class="row" style="height:500px;">
+      <div class="col-md-6" id="perfomer">
+        <div class="overlay"></div>
+      </div>
+      <div class="col-md-6" id="lurker">
+        <div class="overlay"></div>
+      </div>
     </div>
-</div>    
+    <div class="row hidden" style="height:500px;margin-top:-500px;">
+      <div class="col-md-6" id="perfomer-form">
+      </div>
+      <div class="col-md-6" id="lurker-form">
+      </div>
+    </div>
+  </div>
   <!-- ====               Libraries/Frameworks            ==== -->
   <!-- ionicons library thanks to BOWER -->
   <!-- TO DO change to CDN after dev -->
@@ -36,8 +43,13 @@
   <script src="js/app.js">
   </script> <!-- function fire on document ready -->
    
-  <script src="js/script.js"></script> <!-- CSS styling -->
-  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <script src="js/script.js">
+  </script> <!-- CSS styling -->
+  <link href=
+  "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+  rel="stylesheet" integrity=
+  "sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7"
+  crossorigin="anonymous">
   <link href="css/style.css" type="text/css" rel="stylesheet">
 </body>
 </html>
