@@ -1,11 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta name="generator" content=
-  "HTML Tidy for HTML5 for Linux version 5.2.0">
   <meta charset="utf-8">
-  <meta name="viewport" content=
-  "width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title></title>
 </head>
 <body>
@@ -29,7 +26,7 @@
       <h2>LURKER</h2>
       <br>
       <div class="container searchBox">
-        <h1 class="text-center">Available performers nearby</h1>
+        <h1 class="text-center">Performers nearby</h1>
         <div class="input-group">
           <spam class="input-group-addon">Search: </spam>
           <input type="text" class="form-control" placeholder="rock band, juggler, belly dancer ..." ng-model="searchEngine">
@@ -46,8 +43,9 @@
               </tr>
             </thead>
             <tbody>
+            <!-- TODO profile{{performer.profileName}} instead of ./performer.html -->
               <tr ng-repeat='performer in performers | filter : searchEngine'>
-                <td>{{performer.Name}}</td>
+                <td><a href='./performer.html'>{{performer.Name}}</a></td>
                 <td>{{performer.Category}}</td>
                 <td>{{performer.Tags}}</td>
                 <td>{{performer.Popularity}}</td>
