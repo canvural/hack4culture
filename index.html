@@ -27,21 +27,56 @@
                 <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
         </form>
     </div>
-    <div class="col-md-6" id="lurker">
+    <div class="col-md-6" id="lurker" ng-app="application" ng-controller="controllerTablePerformers">
         <h2>LURKER</h2>
-        
+<div class="container">
+            <div class="row">
+                <div class="col-sm-8 center-block">
+                    <h1 class="text-center">Available performers nearby</h1>
+                    <br>
+                    <div class="input-group">
+                        <spam class="input-group-addon">Search: </spam>
+                        <input type="text" class="form-control" placeholder="rock band, juggler, belly dancer" ng-model="searchEngine">
+                    </div>
+                    <br>
+                    <div class="class-responsive">
+                        <table class="table table-hover">
+                            <thead>
+                                <tr>
+                                    <th class="headers" ng-repeat="header in [
+                                    'Name','Category','Tags','Popularity'
+                                    ]">
+                                    {{header}}
+                                    </th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr ng-repeat='performer in performers | filter : searchEngine'>
+                                    <td>{{performer.Name}}</td>
+                                    <td>{{performer.Category}}</td>
+                                    <td>{{performer.Tags}}</td>
+                                    <td>{{performer.Popularity}}</td>
+                                </tr>
+                            </tbody>
+                    </div>
+
+                </div>
+            </div>
+        </div>
     </div>
   </div>
 </div>
+
   <!-- ====               Libraries/Frameworks            ==== -->
   <!-- ionicons library thanks to BOWER -->
   <!-- TO DO change to CDN after dev -->
   <!-- Loading jQuery v1.12.0 -->
-  <script src="js/jquery-1.12.0.min.js">
-  </script> <!-- jQuery UI library -->
-   
-  <script src="js/jquery-ui.min.js">
-  </script>
+  <script src="js/jquery-1.12.0.min.js"></script> 
+  <!-- jQuery UI library --> 
+  <script src="js/jquery-ui.min.js"></script>
+
+  <!-- ANGULAR -->
+  <script src="js/angular.min.js"></script>
   <link href="icons/ionicons.css" type="text/css" rel="stylesheet">
   <link href="fonts" type="font">
   <!-- Reseting browsers' random settings -->
