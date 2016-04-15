@@ -6,7 +6,7 @@ html, body {
     height: 100%;
 }
 
-#perfomer {
+#performer {
     height: 100%;
     border-right: 1px solid black;
     background-image: url(../images/performer.jpg);
