@@ -1,6 +1,6 @@
 html, body {
   height:100%;
-  background: #eeeeee url('../images/bgs/conpen.png');
+  background-color: white;
 }
 
 h1, h2, h3 {
@@ -27,6 +27,8 @@ h2 {
     width: auto;
     text-align: center;
     padding: 20px;
+    -webkit-filter: drop-shadow(12px 12px 7px rgba(0,0,0,0.5)); 
+    filter: drop-shadow(12px 12px 7px rgba(0,0,0,0.5));
 }
 
 .center-block {
