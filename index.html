@@ -1,19 +1,21 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta name="generator" content=
-  "HTML Tidy for HTML5 for Linux version 5.2.0">
   <meta charset="utf-8">
-  <meta name="viewport" content=
-  "width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title></title>
 </head>
 <body>
+<<<<<<< HEAD
+  <header><h1>CHOOSE YOUR SIDE</h1></header>
+=======
+<div class="landing">
+</div>
+>>>>>>> 1d7bc9ded878560ad4c299f1e3e9bd7745c72515
 <div class="container">
   <div class="row" style="height:500px;">
     <div class="col-md-6" id="performer">
         <h2>PERFORMER</h2>
-        <br>
         <form class="form-signin">
           <h2 class="form-signin-heading">Please register</h2>
           <label for="inputEmail" class="sr-only">Email address</label>
@@ -27,13 +29,13 @@
     </div>
     <div class="col-md-6" id="lurker" ng-app="application" ng-controller="controllerTablePerformers">
       <h2>LURKER</h2>
-      <br>
       <div class="container searchBox">
-        <h1 class="text-center">Available performers nearby</h1>
+        <h1 class="text-center">Performers nearby</h1>
         <div class="input-group">
           <spam class="input-group-addon">Search: </spam>
           <input type="text" class="form-control" placeholder="rock band, juggler, belly dancer ..." ng-model="searchEngine">
         </div>
+        <br>
         <div >
           <table class="table table-hover">
             <thead>
@@ -46,15 +48,16 @@
               </tr>
             </thead>
             <tbody>
+            <!-- TODO profile{{performer.profileName}} instead of ./performer.html -->
               <tr ng-repeat='performer in performers | filter : searchEngine'>
-                <td>{{performer.Name}}</td>
+                <td><a href='./performer.html'>{{performer.Name}}</a></td>
                 <td>{{performer.Category}}</td>
                 <td>{{performer.Tags}}</td>
                 <td>{{performer.Popularity}}</td>
               </tr>
             </tbody>
           </table>
-        </div>
+        </div>  
       </div>
     </div>
   </div>
@@ -64,8 +67,8 @@
   <!-- ionicons library thanks to BOWER -->
   <!-- TO DO change to CDN after dev -->
   <!-- Loading jQuery v1.12.0 -->
-  <script src="js/jquery-1.12.0.min.js"></script> 
-  <!-- jQuery UI library --> 
+  <script src="js/jquery-1.12.0.min.js"></script>
+  <!-- jQuery UI library -->
   <script src="js/jquery-ui.min.js"></script>
 
   <!-- ANGULAR -->
@@ -78,7 +81,7 @@
   <!-- app function definitions -->
   <script src="js/app.js">
   </script> <!-- function fire on document ready -->
-   
+
   <script src="js/script.js">
   </script> <!-- CSS styling -->
   <link href=
