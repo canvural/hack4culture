@@ -1,5 +1,4 @@
 $(document).ready(function() {
-	/*$('.landing').click(function() {
-		$(this).slideUp();
-	}); */
+	// $('#performer').css({visibility: 'hidden'});
+	// $('#lurker').css({visibility: 'hidden'});
 });

@@ -12,6 +12,7 @@ h2 {
 }
 
 
+
 .container {
   height: 100%;
 }
@@ -51,7 +52,6 @@ table {
 
 #performer {
   height: 100%;
-  border-right: 1px solid black;
   padding:0;
   text-align: center;
   vertical-align: middle;
@@ -67,8 +67,8 @@ table {
 }
 
 .overlay{
-  background-color:black;
-  opacity:0.6;
+  background: url('../images/performance.jpg') no-repeat;
+  z-index: 10;
   position:relative;
   height:100%;
   text-align: center;
