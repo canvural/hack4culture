@@ -40,12 +40,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
-<<<<<<< HEAD:performer.php
             <h1><?php echo $el['bio'] ?></h1>
-=======
-				<h1>BIOGRAPHY</h1>
-        <p>Hi, my name is Joe Beckerhead.</p>
->>>>>>> 44bb65fd5d211317ef00defd363e0475c68f1f3d:performer.html
 			</div>
 		</div>
 	</div>
@@ -108,11 +103,8 @@
 	</div>
 </section>
   <!-- jQuery -->
-<<<<<<< HEAD:performer.php
   <script src="/js/jquery-1.12.0.min.js"></script> 
-=======
-  <script src="js/jquery-1.12.0.min.js"></script>
->>>>>>> 44bb65fd5d211317ef00defd363e0475c68f1f3d:performer.html
+  <script src="/js/jquery-1.12.0.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 </body>
 </html>
