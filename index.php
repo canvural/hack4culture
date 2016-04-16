@@ -39,10 +39,13 @@ function profile_handler($url, $pdo) {
     $profileName = $url['name'];
     
     $result = $pdo->query("SELECT * FROM performers WHERE profileNameTEXT = \"" . $profileName . "\"");
+    $el;
     foreach($result AS $row) {
-        echo $row['name'] . "<br>";
-        echo $row['bio'];
+        $el = $row;
     }
+
+    include 'performer.php';
+
 }
 
 function ajax_performers_handler($args, $db) {
