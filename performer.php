@@ -27,6 +27,7 @@
             <h3 class="masthead-brand"><?php echo $el['name'] ?></h3>
               <nav>
                 <ul class="nav masthead-nav">
+                    <li><a href="/add_event.html">Add Event</a></li>
                 </ul>
               </nav>
             </div>
