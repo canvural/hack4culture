@@ -8,4 +8,4 @@ app.controller( 'controllerTablePerformers' , [ '$scope' , '$filter', '$http' , 
       error(function(data, status, headers, config) {
         // log error
       });
-};
+}]);
