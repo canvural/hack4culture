@@ -28,8 +28,8 @@ h2 {
     width: auto;
     text-align: center;
     padding: 20px;
-    -webkit-filter: drop-shadow(12px 12px 7px rgba(0,0,0,0.5)); 
-    filter: drop-shadow(12px 12px 7px rgba(0,0,0,0.5));
+    -webkit-filter: drop-shadow(12px 12px 12px rgba(0,0,0,0.5)); 
+    filter: drop-shadow(12px 12px 12px rgba(0,0,0,0.5));
 }
 
 .center-block {
