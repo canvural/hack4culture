@@ -66,5 +66,10 @@ function ajax_performers_handler($args, $db) {
 }
 
 function form_handler($args, $db) {
-        
+    $email = $_POST['email'];
+    $pass = $_POST['pass'];
+    $res = $db->query("SELECT * FROM performers WHERE email='$email' AND password='$pass'");
+    $el = $res->fetch(PDO::FETCH_ASSOC);
+
+    include 'performer.php';
 }

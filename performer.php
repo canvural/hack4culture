@@ -72,7 +72,7 @@
           </div>
         </div>
         <div class="item">
-          <img class="third-slide" src=""/images/<?php echo $el['profileNameTEXT'] ?>-3.jpg alt="Third slide">
+          <img class="third-slide" src="/images/<?php echo $el['profileNameTEXT'] ?>-3.jpg" alt="Third slide">
           <div class="container">
             <div class="carousel-caption">
               <h1>Wroclaw - 2010</h1>
