@@ -28,7 +28,7 @@
               <nav>
                 <ul class="nav masthead-nav">
                     <li><a href="/add_event.html">Add Event</a></li>
-                    <li><a href="/index.html"><img src="/images/home.png" alt="home"></a></li>
+                    <li><a href="/index.html"><img src="/images/homes.png" alt="home"></a></li>
                 </ul>
               </nav>
             </div>
