@@ -1,0 +1,77 @@
+.row {
+  width: 125%;
+}
+
+#add_event {
+  overflow: auto;
+}
+#add_event #form {
+  width:410px;
+  float:left;
+}
+
+#add_event #form span {
+  display:block;
+  float:left;
+  width:100px;
+  padding-top:5px;
+  font: 14px/16px Georgia, serif;
+}
+#add_event #form input {
+  float:left;
+  width:255px;
+  border:0px;
+  color:#fff;
+  padding:10px 10px 10px 30px;
+  font: 11px/20px Georgia, serif;
+  margin-bottom:10px;
+}
+#add_event #form textarea {
+  float:left;
+  border:0px;
+  width:255px;
+  height:140px;
+  padding:10px 10px 10px 30px;
+  font: 11px/20px Georgia, serif;
+  color:#fff ;
+  resize: none;
+}
+#add_event #form input.event_name {
+  background:#222222  no-repeat 10px 8px;
+  color:#fff;
+}
+#add_event #form input.event_place {
+  background:#222222 no-repeat 10px 9px;
+  color:#fff;
+}
+#add_event #form input.event_date{
+  background:#222222  no-repeat 10px 9px;
+  color:#fff;
+}
+
+#add_event #form textarea.event_description {
+  background:#222222 no-repeat 10px 8px;
+  color:#fff;
+}
+#add_event #form input.submit {
+  cursor: pointer;
+  width:85px;
+  height:30px;
+  float:right;
+  padding:0px 0px 5px 0px;
+  margin:10px 16px 0px 0px;
+  background:#222222;
+  color:#fff;
+  font: 14px/16px Impact, Charcoal, sans-serif;
+}
+#add_event #captcha span{
+  width: 44px;
+}
+#add_event #captcha input{
+  background: no-repeat scroll 0 0 transparent;
+  margin: 5px 0 0;
+  padding: 0;
+  border: medium none;
+  cursor: pointer;
+  width: 15px;
+}
