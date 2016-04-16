@@ -6,12 +6,12 @@
   <title></title>
 </head>
 <body>
-<<<<<<< HEAD
-  <header><h1>CHOOSE YOUR SIDE</h1></header>
-=======
+
+ 
+
 <div class="landing">
 </div>
->>>>>>> 1d7bc9ded878560ad4c299f1e3e9bd7745c72515
+ <header><h1>CHOOSE YOUR SIDE</h1></header>
 <div class="container">
   <div class="row" style="height:500px;">
     <div class="col-md-6" id="performer">
@@ -48,9 +48,8 @@
               </tr>
             </thead>
             <tbody>
-            <!-- TODO profile{{performer.profileName}} instead of ./performer.html -->
               <tr ng-repeat='performer in performers | filter : searchEngine'>
-                <td><a href='./performer.html'>{{performer.Name}}</a></td>
+                <td><a href='profile/{{performer.profileName}}'>{{performer.Name}}</a></td>
                 <td>{{performer.Category}}</td>
                 <td>{{performer.Tags}}</td>
                 <td>{{performer.Popularity}}</td>
