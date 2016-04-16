@@ -128,19 +128,16 @@ table {
 }
 .frame{
   overflow-y: scroll;
-  height: 200px;
+  height: inherit;
   width: 400px;
   background-color: #DCDCDC;
 }
 
-@media screen and (max-width:740px){
-
-}
-
-@media screen and (max-width:650px) {
-
-}
-
-@media screen and (max-width: 500px) {
-
+@media screen and (max-width:1300px){
+  h2 {
+    /* border-bottom: 2px solid; */
+    font-family: Impact, Charcoal, sans-serif;
+    font-size: 50px;
+    letter-spacing: 7px;
+  }
 }
