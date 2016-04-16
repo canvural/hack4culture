@@ -7,7 +7,7 @@ h1, h2, h3 {
   font-family: Georgia, serif;
 }
 
-.landing {
+/*.landing {
   background: url('../images/performance.jpg') no-repeat;
   margin-left: -3%;
   margin-top:-20px;
@@ -17,7 +17,7 @@ h1, h2, h3 {
   position: absolute;
   display: block;
   background-color: rgba(0,0,0, 0.6);
-}
+}*/
 
 .container {
   height: 100%;
