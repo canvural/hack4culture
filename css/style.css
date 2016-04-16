@@ -128,7 +128,7 @@ table {
 }
 .frame{
   overflow-y: scroll;
-  height: inherit;
+  height: 290px;
   width: 400px;
   background-color: #DCDCDC;
 }
