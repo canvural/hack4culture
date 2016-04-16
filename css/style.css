@@ -7,9 +7,10 @@ h1, h2, h3 {
   font-family: Georgia, serif;
 }
 
-<<<<<<< HEAD
 h2 {
-  border-bottom: 2px solid #471344;
+   /* border-bottom: 2px solid; */
+  font-family: Impact, Charcoal, sans-serif;
+  font-size: 56px;
 }
 
 
