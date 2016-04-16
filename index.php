@@ -6,6 +6,7 @@ $db = new PDO('sqlite:dd.sqlite');
 
 $dispatcher = FastRoute\simpleDispatcher(function(FastRoute\RouteCollector $r) {
     $r->addRoute('GET', '/profile/{name}', 'profile_handler');
+    $r->addRoute('GET', '/getPerformers', 'ajax_performers_handler');
 });
 
 // Fetch method and URI from somewhere
@@ -42,4 +43,20 @@ function profile_handler($url, $pdo) {
         echo $row['name'] . "<br>";
         echo $row['bio'];
     }
+}
+
+function ajax_performers_handler($args, $db) {
+    $result = $db->query("SELECT * FROM performers");
+    $json = [];
+    foreach($result AS $row) {
+        $json[] = [
+            'nick' => $row['profileNameTEXT'],
+            'Name' => $row['name'],
+            'Category' => $row['categories'],
+            'Tags' => $row['tags'],
+            'Popularity' => $row['points']
+        ];
+    }
+
+    echo json_encode($json); 
 }
