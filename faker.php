@@ -8,7 +8,7 @@ $db = new PDO('sqlite:dd.sqlite');
 
 $categoriess = ['dancing', 'art', 'belly dancing', 'underground', 'statue'];
 
-for($i = 0; $i < 100; $i++) {
+for($i = 0; $i < 1; $i++) {
     $name = $faker->name;
     $bio  = $faker->text;
     $categories = implode(',', array_intersect_key($categoriess, array_flip(array_rand($categoriess, 3))));
