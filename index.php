@@ -7,6 +7,7 @@ $db = new PDO('sqlite:dd.sqlite');
 $dispatcher = FastRoute\simpleDispatcher(function(FastRoute\RouteCollector $r) {
     $r->addRoute('GET', '/profile/{name}', 'profile_handler');
     $r->addRoute('GET', '/getPerformers', 'ajax_performers_handler');
+    $r->addRoute('POST', '/perform', 'form_handler');
 });
 
 // Fetch method and URI from somewhere
@@ -62,4 +63,8 @@ function ajax_performers_handler($args, $db) {
     }
 
     echo json_encode($json); 
+}
+
+function form_handler($args, $db) {
+        
 }
