@@ -1,6 +1,11 @@
 html, body {
   height:100%;
-} 
+  background: #eeeeee url(images/symphony.png);
+}
+
+h1, h2, h3 {
+  font-family: Georgia, serif;
+}
 
 .container {
   height: 100%;
@@ -16,6 +21,21 @@ html, body {
 
 .headers {
   text-align: center;
+}
+header {
+  border-bottom: 1px solid black;
+}
+
+header h1 {
+  margin: 0;
+  padding: 15px 15px 15px 60px;
+  background-color: #CCC;
+  font-family: Impact, Charcoal, sans-serif;
+}
+
+table {
+  background-color: white;
+  border: 2px solid #CCC;
 }
 
 #performer {
@@ -78,13 +98,13 @@ html, body {
 }
 
 @media screen and (max-width:740px){
-    
+
 }
 
 @media screen and (max-width:650px) {
-    
+
 }
 
 @media screen and (max-width: 500px) {
-  
+
 }
