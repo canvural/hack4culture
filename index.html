@@ -13,15 +13,13 @@
 
     <div class="col-md-6" id="performer">
       <h2>I'M PERFORMING</h2>
-      <form class="form-signin">
+      <form class="form-signin" action="/perform" method="POST">
         <h1 class="form-signin-heading">Show must go on!</h1>
         <label for="inputEmail" class="sr-only">Email address</label>
-        <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required="" autofocus="" autocomplete="off">
+        <input type="email" name="email" id="inputEmail" class="form-control" placeholder="Email address" required="" autofocus="" autocomplete="off">
         <label for="inputPassword" class="sr-only">Password</label>
-        <input type="password" id="inputPassword" class="form-control" placeholder="Password" required="" autocomplete="off">
-        <label for="inputPassword" class="sr-only">Repeat password</label>
-        <input type="password" id="inputPassword" class="form-control" placeholder="Repeat password" required="" autocomplete="off">
-        <button class="btn btn-lg btn-primary btn-block" type="submit" id="button-register">Register</button>
+        <input type="password" name="pass" id="inputPassword" class="form-control" placeholder="Password" required="" autocomplete="off">
+        <button class="btn btn-lg btn-primary btn-block" type="submit" id="button-register">GO!</button>
       </form>
     </div>
     <div class="col-md-6" id="lurker" ng-app="application" ng-controller="controllerTablePerformers">
