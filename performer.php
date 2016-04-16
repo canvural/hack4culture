@@ -28,6 +28,7 @@
               <nav>
                 <ul class="nav masthead-nav">
                     <li><a href="/add_event.html">Add Event</a></li>
+                    <li><a href="/index.html"><img href="icons/home.png" alt="home"></li>
                 </ul>
               </nav>
             </div>
@@ -96,7 +97,7 @@
 </section>
 
   <!-- jQuery -->
-  <script src="/js/jquery-1.12.0.min.js"></script> 
+  <script src="/js/jquery-1.12.0.min.js"></script>
   <script src="/js/jquery-1.12.0.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 </body>
